@@ -91,7 +91,7 @@
 	</mouse>
 	<tabs>
 		<tab title="PowerShell (64-bit)" icon="%APPDATA%\Console\powershell-64-bit.ico" use_default_icon="0">
-			<console shell="%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\powershell.exe" init_dir="C:\Source" run_as_user="0" user=""/>
+			<console shell="%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" init_dir="C:\Source" run_as_user="0" user=""/>
 			<cursor style="0" r="255" g="255" b="255"/>
 			<background type="0" r="0" g="0" b="0">
 				<image file="" relative="0" extend="0" position="0">
@@ -99,8 +99,8 @@
 				</image>
 			</background>
 		</tab>
-		<tab title="PowerShell (32-bit)" icon="%APPDATA%\Console\powershell-32-bit.ico" use_default_icon="0">
-			<console shell="%SYSTEMROOT%\syswow64\WindowsPowerShell\v1.0\powershell.exe" init_dir="C:\Source" run_as_user="0" user=""/>
+		<tab title="PowerShell (32-bit)" icon="C:\Users\Richard\AppData\Roaming\Console\powershell-32-bit.ico" use_default_icon="0">
+			<console shell="%SystemRoot%\syswow64\WindowsPowerShell\v1.0\powershell.exe" init_dir="C:\Source" run_as_user="0" user=""/>
 			<cursor style="0" r="255" g="255" b="255"/>
 			<background type="0" r="6" g="0" b="60">
 				<image file="" relative="0" extend="0" position="0">
@@ -108,8 +108,8 @@
 				</image>
 			</background>
 		</tab>
-		<tab title="Command Prompt" icon="%APPDATA%\Console\command-prompt.ico" use_default_icon="0">
-			<console shell="%SYSTEMROOT$\System32\cmd.exe" init_dir="" run_as_user="0" user=""/>
+		<tab title="Command Prompt" icon="C:\Users\Richard\AppData\Roaming\Console\command-prompt.ico" use_default_icon="0">
+			<console shell="C:\Windows\System32\cmd.exe" init_dir="" run_as_user="0" user=""/>
 			<cursor style="0" r="255" g="255" b="255"/>
 			<background type="0" r="0" g="0" b="0">
 				<image file="" relative="0" extend="0" position="0">
@@ -117,8 +117,8 @@
 				</image>
 			</background>
 		</tab>
-		<tab title="Python" icon="%APPDATA%\Console\python.ico" use_default_icon="0">
-			<console shell="%SYSTEMROOT%\System32\cmd.exe /c c:\Python33\python.exe" init_dir="C:\Source" run_as_user="0" user=""/>
+		<tab title="Python" icon="C:\Users\Richard\AppData\Roaming\Console\python.ico" use_default_icon="0">
+			<console shell="C:\Windows\System32\cmd.exe /c c:\Python33\python.exe" init_dir="C:\Source" run_as_user="0" user=""/>
 			<cursor style="0" r="255" g="255" b="255"/>
 			<background type="0" r="45" g="0" b="64">
 				<image file="" relative="0" extend="0" position="0">
@@ -126,8 +126,8 @@
 				</image>
 			</background>
 		</tab>
-		<tab title="Ruby Shell" icon="%APPDATA%\Console\ruby.ico" use_default_icon="0">
-			<console shell="%SYSTEMROOT%\System32\cmd.exe /E:ON /K C:\Ruby200-x64\bin\setrbvars.bat" init_dir="C:\Source" run_as_user="0" user=""/>
+		<tab title="Ruby Shell" icon="C:\Users\Richard\AppData\Roaming\Console\ruby.ico" use_default_icon="0">
+			<console shell="C:\Windows\System32\cmd.exe /E:ON /K C:\Ruby200-x64\bin\setrbvars.bat" init_dir="C:\Source" run_as_user="0" user=""/>
 			<cursor style="0" r="255" g="255" b="255"/>
 			<background type="0" r="89" g="0" b="2">
 				<image file="" relative="0" extend="0" position="0">
@@ -135,8 +135,8 @@
 				</image>
 			</background>
 		</tab>
-		<tab title="Ruby REPL" icon="%APPDATA%\Console\ruby.ico" use_default_icon="0">
-			<console shell="%SYSTEMROOT%\System32\cmd.exe /c C:\Ruby200-x64\bin\irb.bat" init_dir="C:\Source" run_as_user="0" user=""/>
+		<tab title="Ruby REPL" icon="C:\Users\Richard\AppData\Roaming\Console\ruby.ico" use_default_icon="0">
+			<console shell="C:\Windows\System32\cmd.exe /c C:\Ruby200-x64\bin\irb.bat" init_dir="C:\Source" run_as_user="0" user=""/>
 			<cursor style="0" r="255" g="255" b="255"/>
 			<background type="0" r="128" g="0" b="64">
 				<image file="" relative="0" extend="0" position="0">
@@ -144,8 +144,8 @@
 				</image>
 			</background>
 		</tab>
-		<tab title="NodeJS Shell" icon="%APPDATA%\Console\nodejs.ico" use_default_icon="0">
-			<console shell="%SYSTEMROOT%\System32\cmd.exe /k &quot;C:\Program Files\nodejs\nodevars.bat&quot;" init_dir="C:\Source" run_as_user="0" user=""/>
+		<tab title="NodeJS Shell" icon="C:\Users\Richard\AppData\Roaming\Console\nodejs.ico" use_default_icon="0">
+			<console shell="C:\Windows\System32\cmd.exe /k &quot;C:\Program Files\nodejs\nodevars.bat&quot;" init_dir="C:\Source" run_as_user="0" user=""/>
 			<cursor style="0" r="255" g="255" b="255"/>
 			<background type="0" r="0" g="70" b="35">
 				<image file="" relative="0" extend="0" position="0">
@@ -153,7 +153,7 @@
 				</image>
 			</background>
 		</tab>
-		<tab title="NodeJS REPL" icon="%APPDATA%\Console\nodejs.ico" use_default_icon="0">
+		<tab title="NodeJS REPL" icon="C:\Users\Richard\AppData\Roaming\Console\nodejs.ico" use_default_icon="0">
 			<console shell="&quot;C:\Program Files\nodejs\node.exe&quot;" init_dir="C:\Source" run_as_user="0" user=""/>
 			<cursor style="0" r="255" g="255" b="255"/>
 			<background type="0" r="0" g="40" b="0">
